@@ -1,0 +1,35 @@
+.component.review {
+    padding: 30px 20px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 8px;
+    position: relative;
+}
+
+.reviewer-name {
+    font-size: 24px;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.operations {
+    position: absolute;
+    top: -22px;
+    right: 20px;
+}
+
+.icon {
+    cursor: pointer;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.icon-edit {
+    background-image: url(/icons/edit.svg);
+}
+
+.icon-submit {
+    background-image: url(/icons/write.svg);
+}

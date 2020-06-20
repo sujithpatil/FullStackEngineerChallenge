@@ -1,0 +1,31 @@
+.heading {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.emp-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info {
+    flex-basis: calc(50% - 20px);
+    background: #ffffff;
+    margin-right: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.emp-label {
+    padding: 10px;
+    display: inline-block;
+    background: #8B008B;
+    width: 125px;
+}
+
+.value {
+    padding: 10px 25px;
+    display: inline-block;
+}

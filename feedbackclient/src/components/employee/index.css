@@ -1,0 +1,38 @@
+.employee {
+    display: flex;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.employee:not(:first-child) .update {
+    background-image: url('/icons/edit.svg');
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    flex-basis: 10%;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.employee:not(:first-child) .remove {
+    background-image: url('/icons/delete.svg');
+    cursor: pointer;
+    width: 25px;
+    flex-basis: 10%;
+    height: 25px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.name {
+    cursor: pointer;
+}
+
+p.name, p.email, p.id {
+    min-width: 26%;
+    text-align: left;
+    margin-right: 15px;
+}
